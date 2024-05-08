@@ -24,7 +24,7 @@ public class RandomizerCommand implements CommandExecutor {
         ItemMeta randomiserMeta = randomiser.getItemMeta();
 
         randomiserMeta.setDisplayName("Randomizer");
-        randomiserMeta.setCustomModelData(123456789);
+        randomiserMeta.setCustomModelData(1234567);
         randomiser.setItemMeta(randomiserMeta);
 
 
